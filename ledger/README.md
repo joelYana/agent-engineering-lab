@@ -1,0 +1,1 @@
+Se documentarán los papers analizados en torno a los que pueden sumar al proyecto, un breve resumen de qué trata y la evidencia que respalda. Posterior a eso, cada entrada terminará con una decisión: se probará, se investigará con cierta profundidad, se archivará o se descartará.
