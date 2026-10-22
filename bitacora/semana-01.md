@@ -5,7 +5,7 @@
 - Instalé Python y configuré el entorno de desarrollo
 - Inicié el curso CS50p clase 0 y escribí un script de SISOP notas
 
-## Horas
+## Horas (tiempo transcurrido desde que abro el día hasta que lo cierro)
 - D1 6h
 - D2 5h
 - D3 28h
