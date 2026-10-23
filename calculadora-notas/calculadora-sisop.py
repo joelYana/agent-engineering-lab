@@ -4,20 +4,30 @@
 
 import math
 
-p1 = float(input("p1: "))
-p2 = float(input("p2: "))
-p3 = float(input("p3: "))
-p4 = float(input("p4: "))
-p5 = float(input("p5: "))
-p6 = float(input("p6: "))
+def main():
+    p1 = float(input("p1: "))
+    p2 = float(input("p2: "))
+    p3 = float(input("p3: "))
+    p4 = float(input("p4: "))
+    p5 = float(input("p5: "))
+    p6 = float(input("p6: "))
+    prom = promedio(p1, p2, p3, p4, p5, p6)
 
-ta = float(input("ta: "))
-ex1 = float(input("ex1: "))
+    ta = float(input("ta: "))
+    ex1 = float(input("ex1: "))
 
-pb = (p1+p2+p3+p4+p5+p6)/6
+    nota = nota_min_final(prom, ta, ex1)
+    print(f"Necesito {nota} para aprobar")
 
-nota_aprobatoria = 10.5
-puntaje_requerido = nota_aprobatoria * 10
-ex2 = math.ceil((puntaje_requerido - (2 * pb + 2 * ta + 3 * ex1))/3)
+def promedio(p1, p2, p3, p4, p5, p6):
+    pb = (p1+p2+p3+p4+p5+p6)/6
+    return pb
 
-print(f"Necesito {ex2} para aprobar")
+def nota_min_final(prom, ta, ex1):
+    nota_aprobatoria = 10.5
+    puntaje_requerido = nota_aprobatoria * 10
+    puntaje_acumulado = 2 * prom + 2 * ta + 3 * ex1
+    ex2 = math.ceil((puntaje_requerido - puntaje_acumulado)/3)
+    return ex2
+
+main()
