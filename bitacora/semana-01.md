@@ -1,4 +1,4 @@
-# Semana 1 (28 sep - 4 oct)
+# Semana 1 (28 sep - )
 
 ## Qué hice
 - Completé el ejercicio "Introducción a GitHub" y creé el repo
