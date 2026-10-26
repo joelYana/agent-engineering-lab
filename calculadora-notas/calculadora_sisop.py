@@ -30,4 +30,5 @@ def nota_min_final(prom, ta, ex1):
     ex2 = math.ceil((puntaje_requerido - puntaje_acumulado)/3)
     return ex2
 
-main()
+if __name__ == "__main__": 
+    main()
