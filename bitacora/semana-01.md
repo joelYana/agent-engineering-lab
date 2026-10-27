@@ -9,6 +9,8 @@
 - D1 6h
 - D2 5h
 - D3 28h
+- D4 17d
+- D5 24h
 
 ## Qué funcionó
 Se completó todo correctamente al finalizar con lo trazado
