@@ -18,6 +18,7 @@
 - D4 17d
 - D5 24h
 - D6 4d
+- D7 20h
 
 ## Qué funcionó
 Predicciones antes de las ejecuciones, commits por bloques, tests que detectaron la regresión y leer el paper con preguntas guía.
@@ -49,4 +50,4 @@ La semana 1, contemplada para una semana, me tomó cinco semanas calendario en c
 ## Acuerdos
 - Ningún día en cero sin aviso; mínimo 30 minutos diarios
 - El día antes del laboratorio es descanso planificado y lo compenso el fin de semana
-- Preguntarle esta semana a mi papá cuándo empiezo con los casos golden y cuántas horas semanales les dedico
+- Preguntarle esta semana a mi papá cuándo empiezo con los casos golden y cuántas horas semanales les dedicogit
