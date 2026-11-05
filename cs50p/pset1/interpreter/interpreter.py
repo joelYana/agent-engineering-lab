@@ -4,10 +4,9 @@
 # caso 4: 1 / 3 = 0.3
 # caso 5: 2 / 3 = 0.7
 
-secuencia = input("Expression: ").split()
-op1 = float(secuencia[0])
-operacion  = secuencia[1]
-op2 = float(secuencia[2])
+op1, operacion, op2 = input("Expression: ").split()
+op1 = float(op1)
+op2 = float(op2)
 
 if operacion == '+':
     resultado = op1 + op2
