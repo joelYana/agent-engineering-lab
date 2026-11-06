@@ -4,12 +4,17 @@
 
 # Caso 1: prácticas 15, 20, 20, 18, 20 y 13; tarea académica 20; parcial 8. El promedio de prácticas da 17.666... y la nota mínima del final, 2.
 # Caso 2: todas las notas en 20. El promedio da 20 y la nota mínima del final, -11.
-# Caso 3 (real): pcs: 15, 20, 19, 15, 15, 15 ta = 18, parcial = 9, prom esperado = 16.5 , nota_min_final = 3
+# Caso 3 : pcs: 15, 20, 19, 15, 15, 15 ta = 18, parcial = 9, prom esperado = 16.5 , nota_min_final = 3
+# Caso 4 : pcs: 15, 20, 19, 14, 15, 11 ta = 18, parcial = 11, prom esperado = 15.7 , nota_min_final = 2
 
-# 0 o menos, mostrar: ya aprobaste, no necesitas rendir el final
-# de 1 a 19, mostar: necesitas # en el final para pasar el curso
-# exactamente 20, necesitas la nota maxima en el examen para pasar
-# mayor que 20, mostrar: ya no puedes aprobar aunque saques 20
+# main pedirá las seis prácticas mediante un for, ya que
+# conocemos la cantidad. Las notas se guardarán en una lista.
+# La función promedio recibirá esa lista para realizar el cálculo.
+
+# Lo que no cambia: los resultados de los tres casos anteriores.
+# Se añadirá un cuarto caso.
+# La función promedio dividirá la suma de las notas entre
+# len(lista), que en este caso será 6.
 
 import math
 
