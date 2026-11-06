@@ -1,9 +1,9 @@
-jugadores = {
-    "Lamine": "Barcelona",
-    "Raphinha": "Barcelona",
-    "Gordon": "Barcelona",
-    "Mbappe": "Real Madrid" 
-}
+jugadores = [
+    {"nombre": "Lamine", "equipo": "Barcelona", "pais": "España"},
+    {"nombre": "Raphinha", "equipo": "Barcelona", "pais": "Brasil"},
+    {"nombre": "Gordon", "equipo": "Barcelona", "pais": "Inglaterra"},
+    {"nombre": "Mbappe", "equipo": "Real Madrid", "pais": "Francia"},        
+]
 
 for jugador in jugadores:
-    print(jugador, jugadores[jugador], sep=", ")
+    print(jugador["nombre"], jugador["equipo"], jugador["pais"], sep=', ')
