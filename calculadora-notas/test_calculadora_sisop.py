@@ -6,22 +6,22 @@ from calculadora_sisop import promedio, nota_min_final, mensaje_resultado
 # Caso 3 (real): pcs: 15, 20, 19, 15, 15, 15 ta = 18, parcial = 9, prom esperado = 16.5 , nota_min_final = 3
 
 def test_nota_min_caso1():
-    assert nota_min_final(promedio(15, 20, 20, 18, 20, 13), 20, 8) == 2
+    assert nota_min_final(promedio([15, 20, 20, 18, 20,13]), 20, 8) == 2
 
 def test_promedio_caso1():
-    assert promedio(15, 20, 20, 18, 20, 13) == pytest.approx(106/6)
+    assert promedio([15, 20, 20, 18, 20, 13]) == pytest.approx(106/6)
 
 def test_nota_min_caso2():
     assert nota_min_final(20, 20, 20) == -11
 
 def test_promedio_caso2():
-    assert promedio(20, 20, 20, 20, 20, 20) == 20
+    assert promedio([20, 20, 20, 20, 20, 20]) == 20
 
 def test_nota_min_caso3():
     assert nota_min_final(16.5, 18, 9) == 3
 
 def test_promedio_caso3():
-    assert promedio(15, 20, 19, 15, 15, 15) == pytest.approx(99/6)
+    assert promedio([15, 20, 19, 15, 15, 15]) == pytest.approx(99/6)
 
 def test_mensaje_necesito_0():
     assert mensaje_resultado(0) == "Ya aprobaste, no necesitas rendir el final"

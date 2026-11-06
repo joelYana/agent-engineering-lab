@@ -19,13 +19,12 @@
 import math
 
 def main():
-    p1 = float(input("p1: "))
-    p2 = float(input("p2: "))
-    p3 = float(input("p3: "))
-    p4 = float(input("p4: "))
-    p5 = float(input("p5: "))
-    p6 = float(input("p6: "))
-    prom = promedio(p1, p2, p3, p4, p5, p6)
+    practicas = []
+    for _ in range(6):
+        pc = float(input("pc: "))
+        practicas.append(pc)
+
+    prom = promedio(practicas)
 
     ta = float(input("ta: "))
     ex1 = float(input("ex1: "))
@@ -33,8 +32,11 @@ def main():
     nota = nota_min_final(prom, ta, ex1)
     print(mensaje_resultado(nota))
 
-def promedio(p1, p2, p3, p4, p5, p6):
-    pb = (p1+p2+p3+p4+p5+p6)/6
+def promedio(practicas):
+    suma = 0
+    for pc in practicas:
+        suma += pc
+    pb = suma/len(practicas)
     return pb
 
 def nota_min_final(prom, ta, ex1):
