@@ -1,4 +1,9 @@
-jugadores = ["Lamine", "Raphinha", "Gordon"]
+jugadores = {
+    "Lamine": "Barcelona",
+    "Raphinha": "Barcelona",
+    "Gordon": "Barcelona",
+    "Mbappe": "Real Madrid" 
+}
 
-for i in range(len(jugadores)):
-    print(i + 1, jugadores[i])
+for jugador in jugadores:
+    print(jugador, jugadores[jugador], sep=", ")
