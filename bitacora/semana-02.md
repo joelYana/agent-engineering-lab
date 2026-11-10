@@ -6,6 +6,7 @@
 - D8 27h
 - D9 43h
 - D10 13h
+- D11 22h
 
 ## Qué funcionó
 
