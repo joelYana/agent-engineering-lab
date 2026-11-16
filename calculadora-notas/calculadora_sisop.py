@@ -9,33 +9,38 @@
 # pcs: 15, 20, 19, 14, 15, 11 ta = 20, parcial = 11, prom esperado = 15.67
 # , nota_min_final = 1
 
-## Especificacion:
-# Entradas que debe rechazar:
-# texto que no es numero -> vuelve a pedir nota
-# notas menores a 0 o mayores que 20 -> vuelve a pedir nota
-# y entrada vacia -> vuelve a pedir nota
-# 0 y 20 estan permitidos
-# decimales no esta permitodo, vuelve a pedir
-
-# Funcion 1: valida_texto(texto) -> devuelve el numero, lanza value error
-# Funcion 2: pide_nota(texto_muestra) -> repite hasta que sea valida y devuelve nota
-# mensaje : Nota inválida: ingresa un entero entre 0 y 20
-
 import math
 
 def main():
     practicas = []
-    for _ in range(6):
-        pc = float(input("pc: "))
+    for i in range(6):
+        pc = pide_nota(f"pc{i + 1}: ")
         practicas.append(pc)
 
     prom = promedio(practicas)
 
-    ta = float(input("ta: "))
-    ex1 = float(input("ex1: "))
+    ta = pide_nota("ta: ")
+    ex1 = pide_nota("ex1: ")
 
     nota = nota_min_final(prom, ta, ex1)
     print(mensaje_resultado(nota))
+
+def valida_texto(texto):
+    dato = int(texto)
+    if 0 <= dato <= 20:
+        return dato
+    else:
+        raise ValueError("Nota fuera de rango")
+
+def pide_nota(texto_muestra):
+    while True:
+        nota = input(texto_muestra)
+        try:
+            nota_validada = valida_texto(nota)
+        except ValueError:
+            print("Nota inválida: ingresa un entero entre 0 y 20")
+        else:
+            return nota_validada
 
 def promedio(practicas):
     suma = 0
