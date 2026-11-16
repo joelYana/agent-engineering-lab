@@ -5,16 +5,21 @@
 # Caso 1: prácticas 15, 20, 20, 18, 20 y 13; tarea académica 20; parcial 8. El promedio de prácticas da 17.666... y la nota mínima del final, 2.
 # Caso 2: todas las notas en 20. El promedio da 20 y la nota mínima del final, -11.
 # Caso 3 : pcs: 15, 20, 19, 15, 15, 15 ta = 18, parcial = 9, prom esperado = 16.5 , nota_min_final = 3
-# Caso 4 : pcs: 15, 20, 19, 14, 15, 11 ta = 20, parcial = 11, prom esperado = 15.67 , nota_min_final = 1
+# Caso 4 (real hasta el momento, se actualizara conforme reciba notas): 
+# pcs: 15, 20, 19, 14, 15, 11 ta = 20, parcial = 11, prom esperado = 15.67
+# , nota_min_final = 1
 
-# main pedirá las seis prácticas mediante un for, ya que
-# conocemos la cantidad. Las notas se guardarán en una lista.
-# La función promedio recibirá esa lista para realizar el cálculo.
+## Especificacion:
+# Entradas que debe rechazar:
+# texto que no es numero -> vuelve a pedir nota
+# notas menores a 0 o mayores que 20 -> vuelve a pedir nota
+# y entrada vacia -> vuelve a pedir nota
+# 0 y 20 estan permitidos
+# decimales no esta permitodo, vuelve a pedir
 
-# Lo que no cambia: los resultados de los tres casos anteriores.
-# Se añadirá un cuarto caso.
-# La función promedio dividirá la suma de las notas entre
-# len(lista), que en este caso será 6.
+# Funcion 1: valida_texto(texto) -> devuelve el numero, lanza value error
+# Funcion 2: pide_nota(texto_muestra) -> repite hasta que sea valida y devuelve nota
+# mensaje : Nota inválida: ingresa un entero entre 0 y 20
 
 import math
 
