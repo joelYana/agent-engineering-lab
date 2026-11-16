@@ -9,6 +9,21 @@
 # pcs: 15, 20, 19, 14, 15, 11 ta = 20, parcial = 11, prom esperado = 15.67
 # , nota_min_final = 1
 
+# Especificación
+
+# 1. Entradas que debe rechazar:
+#    - Texto que no sea numérico.
+#    - Notas menores a 0 o mayores a 20.
+#    - Entradas vacías.
+#    - Números decimales.
+
+# 2. Manejo de entradas incorrectas:
+#    - Solicitar nuevamente la nota hasta que sea válida.
+
+# 3. Notas permitidas:
+#    - Números enteros entre 0 y 20, inclusive.
+#    - Las notas 0 y 20 son válidas.s
+
 import math
 
 def main():
