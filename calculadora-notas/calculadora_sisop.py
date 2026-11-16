@@ -40,23 +40,6 @@ def main():
     nota = nota_min_final(prom, ta, ex1)
     print(mensaje_resultado(nota))
 
-def valida_texto(texto):
-    dato = int(texto)
-    if 0 <= dato <= 20:
-        return dato
-    else:
-        raise ValueError("Nota fuera de rango")
-
-def pide_nota(texto_muestra):
-    while True:
-        nota = input(texto_muestra)
-        try:
-            nota_validada = valida_texto(nota)
-        except ValueError:
-            print("Nota inválida: ingresa un entero entre 0 y 20")
-        else:
-            return nota_validada
-
 def promedio(practicas):
     suma = 0
     for pc in practicas:
@@ -81,5 +64,22 @@ def mensaje_resultado(nota_necesaria):
     else:
         return "Ya no puedes aprobar aunque saques 20"
 
+def valida_texto(texto):
+    dato = int(texto)
+    if 0 <= dato <= 20:
+        return dato
+    else:
+        raise ValueError("Nota fuera de rango")
+
+def pide_nota(texto_muestra):
+    while True:
+        nota = input(texto_muestra)
+        try:
+            nota_validada = valida_texto(nota)
+        except ValueError:
+            print("Nota inválida: ingresa un entero entre 0 y 20")
+        else:
+            return nota_validada
+        
 if __name__ == "__main__": 
     main()
