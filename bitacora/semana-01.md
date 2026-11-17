@@ -50,4 +50,4 @@ La semana 1, contemplada para una semana, me tomó cinco semanas calendario en c
 ## Acuerdos
 - Ningún día en cero sin aviso; mínimo 30 minutos diarios
 - El día antes del laboratorio es descanso planificado y lo compenso el fin de semana
-- Preguntarle esta semana a mi papá cuándo empiezo con los casos golden y cuántas horas semanales les dedicogit
+- Preguntarle esta semana a mi papá cuándo empiezo con los casos golden y cuántas horas semanales les dedico.
