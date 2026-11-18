@@ -22,9 +22,10 @@
 
 # 3. Notas permitidas:
 #    - Números enteros entre 0 y 20, inclusive.
-#    - Las notas 0 y 20 son válidas.s
+#    - Las notas 0 y 20 son válidas
 
 import math
+from statistics import mean
 
 def main():
     practicas = []
@@ -41,11 +42,7 @@ def main():
     print(mensaje_resultado(nota))
 
 def promedio(practicas):
-    suma = 0
-    for pc in practicas:
-        suma += pc
-    pb = suma/len(practicas)
-    return pb
+    return mean(practicas)
 
 def nota_min_final(prom, ta, ex1):
     nota_aprobatoria = 10.5
