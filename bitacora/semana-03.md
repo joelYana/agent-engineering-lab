@@ -6,7 +6,7 @@
 
 | Día | Cerrado el | Tiempo |
 |-----|------------|--------|
-| D15 |            |        | 
+| D15 |  18 nov    |   15h  | 
 | D16 |            |        | 
 | D17 |            |        | 
 | D18 |            |        |
@@ -17,6 +17,8 @@
 Días en cero: 0. Con aviso: 0.
 
 ## Qué funcionó
+
+- Se comprobó en vez de suponer, con la función de promedio, pensaba que devolvía 0, pero al ejecutar lanzo ZeroDivisionError, ningun test me lo hubiera mostrado sin probarlo por mi cuenta
 
 ## Qué falló o me costó
 
