@@ -26,11 +26,13 @@ Días en cero: 1. Con aviso: 0.
 
 Miércoles 18 nov: descanso planificado por el laboratorio de Sistemas Operativos del jueves 19, avisado el 17 nov.
 
+Jueves 19 nov: día en cero sin aviso. Avisé a las 11:40 p. m. que lo haría de madrugada y no lo hice, por que le gano el cansancio del día de la universidad y por mi laboratorio.
+
 ## Siguiente paso
 
 ## Pendientes
 
-Hablar con mi papá a más tardar el jueves 19: cuándo empiezo con los casos golden, cuántas horas les dedico y validar los acuerdos.
+Hablar con mi papá a más tardar el domingo 22: cuándo empiezo con los casos golden, cuántas horas les dedico y validar los acuerdos. El jueves 19 no se pudo cumplir.
 
 ## Reflexión
 
