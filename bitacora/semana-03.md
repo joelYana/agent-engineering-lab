@@ -14,7 +14,7 @@
 | D20 |            |        | 
 | D21 |            |        |
 
-Días en cero: 0. Con aviso: 0.
+Días en cero: 1. Con aviso: 0.
 
 ## Qué funcionó
 
