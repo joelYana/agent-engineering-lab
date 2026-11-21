@@ -48,5 +48,6 @@ Los de la semana 2:
 
 - **Fecha límite:** Cerrar la semana 3 como máximo el lunes 23 de noviembre.
 
+Modificado el 21 nov: cierre movido al miércoles 25 por el día en cero del jueves 19 y el retraso del día 16
 
 ### Nuevos acuerdos
