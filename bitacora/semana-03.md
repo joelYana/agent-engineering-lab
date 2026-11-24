@@ -14,7 +14,7 @@
 | D20 |            |        | 
 | D21 |            |        |
 
-Días en cero: 1. Con aviso: 0.
+Días en cero: 3. Con aviso: 0.
 
 ## Qué funcionó
 
@@ -28,11 +28,15 @@ Miércoles 18 nov: descanso planificado por el laboratorio de Sistemas Operativo
 
 Jueves 19 nov: día en cero sin aviso. Avisé a las 11:40 p. m. que lo haría de madrugada y no lo hice, por que le gano el cansancio del día de la universidad y por mi laboratorio.
 
+Sabado 21 nov: día en cero sin aviso. No avise que tendria practicada de Gobierno y en la noche un compromiso
+
+Domingo 22 nov: día en cero sin aviso. Fuera todo el día y al regresar a cada preparar mis exposiciones del lunes
+
 ## Siguiente paso
 
 ## Pendientes
 
-Hablar con mi papá a más tardar el domingo 22: cuándo empiezo con los casos golden, cuántas horas les dedico y validar los acuerdos. El jueves 19 no se pudo cumplir.
+Hablar con mi papá a más tardar el jueves 26: cuándo empiezo con los casos golden, cuántas horas les dedico y validar los acuerdos. El jueves 19 y el domingo 22 no se pudo cumplir.
 
 ## Reflexión
 
