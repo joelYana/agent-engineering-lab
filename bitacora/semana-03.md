@@ -7,14 +7,14 @@
 | Día | Cerrado el | Tiempo |
 |-----|------------|--------|
 | D15 |  18 nov    |   15h  | 
-| D16 |            |        | 
+| D16 |  25 nov    |   116h | 
 | D17 |            |        | 
 | D18 |            |        |
 | D19 |            |        | 
 | D20 |            |        | 
 | D21 |            |        |
 
-Días en cero: 3. Con aviso: 0.
+Días en cero: 4. Con aviso: 0.
 
 ## Qué funcionó
 
@@ -31,6 +31,8 @@ Jueves 19 nov: día en cero sin aviso. Avisé a las 11:40 p. m. que lo haría de
 Sabado 21 nov: día en cero sin aviso. No avise que tendria practicada de Gobierno y en la noche un compromiso
 
 Domingo 22 nov: día en cero sin aviso. Fuera todo el día y al regresar a cada preparar mis exposiciones del lunes
+
+Lunes 23 nov: día en cero sin aviso. Día repleto de exposiciones en la universidad
 
 ## Siguiente paso
 
